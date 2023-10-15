@@ -10,6 +10,19 @@
         
     }
 
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url("/pictures/back.jpeg");
+        background-size: 100%;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        
+    }
+
     .text_div{
 
         width: 18rem;
