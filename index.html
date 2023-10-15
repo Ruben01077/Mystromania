@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Mystromania</title>
+</head>
+<body>
+
+    <div class="introduction_video_container">
+        <video id="myvid" type="video/mp4" autoplay  >
+            <source src="intruduction_video.mp4">
+        </video>
+
+    </div>
+
+    <script >
+        video = document.getElementById('myvid');
+        video.addEventListener('ended',function() {
+                 
+            window.location.href = '/access.html';
+    })
+    </script>
+</body>
+</html>
