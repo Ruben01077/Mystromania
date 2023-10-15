@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/intro_style.css">
+    <link rel="stylesheet" href="style/small_screen.css">
     <title>Mystromania</title>
 </head>
 <body>
 
     <div class="introduction_video_container">
-        <video id="myvid"  autoplay  >
+        <video id="myvid"  >
             <source src="intruduction_video.mp4" >
         </video>
 
+        
+        <button class="play">Play</button>
     </div>
 
+
     <script >
+        let play = document.querySelector(".play")
+        let myvid = document.querySelector("#myvid")
+
+        play.addEventListener("click", function(){
+            if (myvid.paused == true){
+                myvid.play()
+                play.style.display = "none"
+            }
+        })
+
         video = document.getElementById('myvid');
         video.addEventListener('ended',function() {
                  

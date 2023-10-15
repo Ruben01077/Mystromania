@@ -15,7 +15,24 @@ video{
 .introduction_video_container{
     margin: 0;
     background: black;
+  
 }
 
+.play{
+    background: linear-gradient( rgba(128, 128, 128, 0.439),  rgba(247, 245, 245, 0.553));
+    position: absolute;
+    margin: auto;
+    z-index: 5;
+    font-size: 5rem;
+    width: 20rem;
+    border-radius: 20%;
+    padding: 40px;
+    cursor: pointer;
+    left: 45%;
+    top: 45%;
+    text-align: center;
+    box-shadow: 0px 0px 40px white;
+
+}
 
 

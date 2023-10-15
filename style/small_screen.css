@@ -19,7 +19,18 @@
         text-align: center;
     
     }
+    .play{
 
+        font-size: 4rem;
+        width: 230px;
+        left: 25%;
+        top: 40%;
+    
+    }
+
+    .access_code_div, h1{
+        font-size: 25px;
+    }
 
 }
    
