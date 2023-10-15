@@ -1,0 +1,21 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+video{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+.introduction_video_container{
+    margin: 0;
+    background: black;
+}
+
+
+

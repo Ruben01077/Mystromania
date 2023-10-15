@@ -1,28 +1,82 @@
-*{
-    
-    margin: 0;
-    padding: 0;
 
-}
-
-video{
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-
-}
-.introduction_video_container{
-    margin: 0;
-    background-color: black;
-}
-
-
-
-button{
+.access_code_div {
+    border: 1px solid black;
     display: flex;
-    position: absolute;
+    flex-direction: column;
+    height: 15rem;
+    width: 35rem;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+
+
+
 }
+
+.access_input{
+    
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+ 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/pictures/back.jpeg");
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.folder_container{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+gap: 100px;
+justify-content: center;
+align-items: center;
+padding: 3rem;
+}
+
+
+.folder{
+    
+    
+    width: 200px;
+    height: 159px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    background-image: url("/pictures/secret.jpg");
+    background-size: contain;
+    transition: 0.3s;
+
+}
+
+.folder:hover{
+
+    width: 220px;
+    height: 200px;
+    filter: drop-shadow(0px 0px 20px rgb(246, 246, 112));
+
+}
+
+
+
+.title{
+    font-size: 45px;
+    color: white;
+    filter: drop-shadow(0px 0px 10px rgb(246, 132, 132));
+}
+
+a, h1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
