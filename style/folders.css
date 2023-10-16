@@ -2,8 +2,8 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: darkgray;
-    
+    background-image: url("/pictures/background.jpg");
+    background-size: 100%;
     justify-content: center;
     align-items: center;
     

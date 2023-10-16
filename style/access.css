@@ -3,9 +3,10 @@ body{
     display: flex;
     flex-direction: column;
     background-color: darkgray;
-  
     justify-content: center;
     align-items: center;
+    background-image: url("/pictures/background.jpg");
+    background-size: 100%;
     
 }
 
