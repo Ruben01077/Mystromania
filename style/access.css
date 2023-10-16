@@ -2,7 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url("/pictures/back.jpeg");
+    background-color: darkgray;
     background-size: 100%;
     justify-content: center;
     align-items: center;
