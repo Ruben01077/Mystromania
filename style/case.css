@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/detective-paraphernalia-high-definition-e02vnxp0clzrizfj.jpg");
+    background: url("/detective-paraphernalia-high-definition-e02vnxp0clzrizfj.jpg");
     background-size: fill;
     
 }
